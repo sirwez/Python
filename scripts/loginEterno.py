@@ -9,13 +9,14 @@ while True:
     #print(str(br.parsed()))
 
     form = br.get_form("login_form")
-    form['user'] = "sirwez"
-    form['passwd'] = "weslley12"
+    form['user'] = "login"
+    form['passwd'] = "senha"
     br.submit_form(form)
     #src = str(br.parsed())
 
     #start = src.find('id="notificationsCountValue"')
     #numberOfNotifications = src[start:start + 40]
+    #autor: gabriel
 
     print(time.ctime() + ": autenticando...")
 
